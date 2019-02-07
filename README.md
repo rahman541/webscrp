@@ -9,5 +9,5 @@ cd <inside zlib folder>
 cmake -Bbuild .
 cmake --build build --config Release
 ```
-3. Copy header file inside zlib folder to `dependencies/include`
-4. Copy `*.lib` file inside Release folder to `dependencies/lib`
+3. Copy header file inside zlib folder to `dependencies/zlib-1.2.11/include`
+4. Copy `*.lib` file inside Release folder to `dependencies/zlib-1.2.11/lib`
