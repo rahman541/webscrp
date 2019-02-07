@@ -1,6 +1,6 @@
 ## Web Scrapw with C++
 
-## Lib Build (Dev)
+## Build static library (Windows)
 ### Zlib
 1. Download https://www.zlib.net/
 2. Build static lib
