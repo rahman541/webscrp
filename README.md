@@ -3,6 +3,8 @@ Build:
 ```sh
 rmdir /s/q build
 cmake -Bbuild .
+# Debug / Release
+cmake --build build
 cmake --build build --config Release
 ```
 
@@ -20,7 +22,7 @@ cmake --build build --config Release
 
 ### libCurl
 1. Download Curl `curl-7.64.0.zip` https://curl.haxx.se/download.html
-2. Open `Visual Studio Command Prompt <vstudio version>`
+2. Open `Visual Studio Command Prompt <vstudio_version>`
 ```
 cd <inside curl folder>/winbuild
 Set RTLIBCFG=static
